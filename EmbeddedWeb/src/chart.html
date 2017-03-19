@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>OpenFin/Hydra POC</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/site.min.css">
+    <link rel="stylesheet" href="css/nv.d3.min.css">
+</head>
+<body class='with-3d-shadow with-transitions'>
+    <div class="container-fluid">
+        <div class="row" style="height: 350px">
+            <div class="row">
+                <div id="chart">
+                    <svg style="height:350px"></svg>
+                </div>
+            </div>
+            <div class="jumbotron hidden">
+                <div class="container">
+                    <div class="row">
+
+                        <p id="version-number-container" class="invisible">
+                            Current version: <span id="of-version"></span>
+                        </p>
+                        <p><a class="btn btn-primary btn-lg" id="learn-more" role="button">Learn more &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <footer>
+                <span>
+                    OpenFin adapter ready:
+                </span>
+                <div id="status-indicator"></div>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+        <script src="js/nv.d3.min.js"></script>
+        <script src="js/chart.js"></script>
+</body>
+</html>

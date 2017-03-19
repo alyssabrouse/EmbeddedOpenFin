@@ -1,0 +1,19 @@
+{
+  "devtools_port": 9090,
+  "startup_app": {
+    "name": "openfin-embedded-web",
+    "description": "Variation of the OpenFin winforms-embedded app",
+    "url": "http://localhost:9070",
+    "uuid": "openfin-embedded-web",
+    "autoShow": true
+  },
+  "runtime": {
+    "arguments": "",
+    "version": "stable"
+  },
+  "shortcut": {
+    "company": "T Rowe Price",
+    "description": "Variation of OpenFins winforms-embedded app",
+    "name": "OpenFin Embedding in WinForms"
+  }
+}
