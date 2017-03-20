@@ -1,7 +1,6 @@
 **/obj
 **/bin
-.vs
 **/packages
 **/node_modules
-**/compilerconfig.*
 **/*.csproj.user
+.vs

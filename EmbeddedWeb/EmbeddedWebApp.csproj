@@ -53,6 +53,7 @@
     <Content Include="src\404.html" />
     <Content Include="src\apple-touch-icon.png" />
     <Content Include="src\browserconfig.xml" />
+    <Content Include="src\chart.html" />
     <Content Include="src\crossdomain.xml" />
     <Content Include="src\css\bootstrap.min.css" />
     <Content Include="src\css\main.css" />
@@ -65,6 +66,7 @@
       <DependentUpon>site.css</DependentUpon>
     </Content>
     <Content Include="src\favicon.ico" />
+    <Content Include="src\form.html" />
     <Content Include="src\humans.txt" />
     <Content Include="src\img\.gitignore" />
     <Content Include="src\index.html" />
