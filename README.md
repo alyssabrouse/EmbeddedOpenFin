@@ -52,6 +52,12 @@ The parts of the url are as follows:
 
 Navigate to the URL in a web browser. It will download an .exe file. Run the file. You should see the EmbeddedWeb app launched in openfin.
 
+
+## 3. Run the Demo
+With the web server running (**node server**) on port 9070 (or other port if you've changed your config), set the EmbeddingWinForm project as the startup and run the solution.
+You should see the charting app embedded within the Windows form.
+
+
 ## EmbeddedView
 
 Note that an EmbeddedView control has been coded to render on the screen:
@@ -76,6 +82,7 @@ The Application Options object allows you to configure the OpenFin Application b
 ```js
 chartEmbeddedView.Initialize(runtimeOptions, new ApplicationOptions("openfin-embedded-web", "openfin-embedded-web", "http://localhost:9070/chart.html"));
 ```
+The code above shows hard-coded values, however in the code provided I've moved those to the App.config file.
 
 ### Ready
 To programmatically react to when the EmbeddedView has loaded its content, initialized and is ready to be displayed you can subscribe to the Ready event:

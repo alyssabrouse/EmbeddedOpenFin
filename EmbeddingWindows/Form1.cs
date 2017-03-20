@@ -2,6 +2,7 @@
 using Openfin.WinForm;
 using Openfin.Desktop;
 using Newtonsoft.Json.Linq;
+using System.Configuration;
 
 namespace EmbeddingWindows
 {
@@ -26,7 +27,10 @@ namespace EmbeddingWindows
             panel1.Controls.Add(chartEmbeddedView);
 
             //Initialize the chart view by passing the runtime Options and the ApplicationOptions
-            chartEmbeddedView.Initialize(runtimeOptions, new ApplicationOptions("openfin-embedded-web", "openfin-embedded-web", "http://localhost:9070/chart.html"));
+            chartEmbeddedView.Initialize(runtimeOptions, new ApplicationOptions(
+                ConfigurationManager.AppSettings["OpenFinApp-Name"],
+                ConfigurationManager.AppSettings["OpenFinApp-UUID"],
+                ConfigurationManager.AppSettings["OpenFinApp-Url"]));
 
             //We can get the instance of the singleton runtime object by usig the GetRuntimeInstance function and passing 
             var openFinRuntime = Runtime.GetRuntimeInstance(runtimeOptions);
