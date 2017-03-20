@@ -126,7 +126,7 @@ namespace EmbeddingWindows
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(560, 560);
             this.Name = "Form1";
-            this.Text = "Embeded OpenFin Applications";
+            this.Text = "Embedded OpenFin Application";
             this.ResumeLayout(false);
             this.PerformLayout();
 
