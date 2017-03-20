@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddingWinForm", "EmbeddingWindows\EmbeddingWinForm.csproj", "{8AC7E2F6-9A3D-42BB-A7FA-3291E149C5D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedWebApp", "EmbeddedWeb\EmbeddedWebApp.csproj", "{6E92CBAF-170E-4DCD-911B-9932C2538C9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedWeb", "EmbeddedWeb\EmbeddedWeb.csproj", "{6E92CBAF-170E-4DCD-911B-9932C2538C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
